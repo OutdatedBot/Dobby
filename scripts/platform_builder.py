@@ -177,7 +177,7 @@ if __name__ == "__main__":
   parser = argparse.ArgumentParser()
   parser.add_argument("--platform", type=str, required=True)
   parser.add_argument("--arch", type=str, required=True)
-  parser.add_argument("--library_build_type", type=str, default="static")
+  parser.add_argument("--library_build_type", type=str, default="shared")
   parser.add_argument("--android_ndk_dir", type=str)
   parser.add_argument("--cmake_dir", type=str)
   parser.add_argument("--llvm_dir", type=str)
