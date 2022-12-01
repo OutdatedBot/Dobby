@@ -22,7 +22,7 @@ class PlatformBuilder(object):
   cmake_build_verbose = False
   cmake_build_dir = ""
 
-  library_build_type = "static"
+  library_build_type = "shared"
 
   project_dir = ""
   output_dir = ""
